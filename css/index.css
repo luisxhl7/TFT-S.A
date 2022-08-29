@@ -34,7 +34,6 @@ body{
 .cuerpo1{
     width: 1800px;
     height: 700px;
-    /*background-image: url(../img/camion.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +44,7 @@ body{
     top: 0px;
 }
 .contTxt{
-    background-color: #0000ff47;
+    background-color: #0000ff21;
     height: 700px;
     width: 1440px;
     display: flex;
@@ -67,13 +66,12 @@ footer{
 }
 .btnLink:hover{
     color: rgb(250, 246, 246);
-    /*background-color: rgb(51, 49, 178);*/
     background: linear-gradient( to right bottom, #f78795,#3a0ca3);
 }
 .contImg{
     width: 1800px;
     height: 700px;
-    background-color: #0000ff47;
+    background-color: #0000ff21;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -82,7 +80,7 @@ footer{
 .contCertificados{
     width: 360px;
     height: 700px;
-    background-color: #0000ff47;
+    background-color: #0000ff21;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
