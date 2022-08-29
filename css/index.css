@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #0267bf;
+}
+.contPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 1800px;
+    box-shadow: 10px 10px 132px black;
+}
+.contMenu{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.menu{
+    width: 1800px;
+    height: 100px;
+    background-color: #0267bf;
+    display: flex;
+    justify-content: space-between;
+}
+.contCuerpo{
+    position: relative;
+}
+.cuerpo1{
+    width: 1800px;
+    height: 700px;
+    /*background-image: url(../img/camion.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.cuerpo2{
+    position: absolute;
+    top: 0px;
+}
+.contTxt{
+    background-color: #0000ff47;
+    height: 700px;
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+footer{
+    padding: 10PX 0PX ;
+    width: 1800px;
+    height: 150px;
+    background-color: #0267bf;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}   
+.btnLink{
+    color: white;
+    padding: 41px 78px;
+}
+.btnLink:hover{
+    color: rgb(250, 246, 246);
+    /*background-color: rgb(51, 49, 178);*/
+    background: linear-gradient( to right bottom, #f78795,#3a0ca3);
+}
+.contImg{
+    width: 1800px;
+    height: 700px;
+    background-color: #0000ff47;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.contCertificados{
+    width: 360px;
+    height: 700px;
+    background-color: #0000ff47;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.texto{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 22px 30px 22px black;
+}
+.basc{
+    width: 274px;
+    height: 239px;
+}
+.icontec{
+    width: 170px;
+    height: 237px;
+    border-radius: 23px;
+}
+.ubicarnos{
+    color: white;
+    margin: 2px;
+}
+.ubicarnos1{
+    color: white;
+    margin: 2px;
+}
+a{
+    text-decoration: none;
+}
+.fa-facebook, .fa-instagram{
+    color: white;
+    margin: 10px 10px;
+    font-size: 25px;
+}
+.fa-instagram:hover{
+    background: linear-gradient( to right bottom, #f78795,#3a0ca3);
+}
+.fa-facebook:hover{
+    color: blue;
+    background-color: white;
+}
+.slider{
+    height: 700px;
+    width: 1800px;
+    overflow: hidden;
+}
+.slider ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-timing-function: case-in;
+}
+.slider li{
+    width: 100%;
+    height: 700px;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 700px;
+}
+@keyframes cambio{
+    0%{margin: left 0;}
+    20%{margin: left 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+.contInfo{
+    display: flex;
+}
+.btnPolitica{
+    width: 150px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btnPolitica:hover{
+    background: linear-gradient( to right bottom, #f78795,#3a0ca3);
+    border-radius: 5px;
+}
